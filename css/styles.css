@@ -1,3 +1,128 @@
-.hero-section {
- background-color: #EEEEEE;
+:root {
+    --color-primary: #212121;
+    --color-secondary: #757575;
+    --color-action: #FFFFFF;
+    --color-accent: #2196F3;
+    --color-logo: #000000;
+    --color-text-footer: rgba(255, 255, 255, 0.6);
+    --background-color-main: #FFFFFF;
+    --background-color-dark: #2F303A;
+    --background-color-light: #F5F4FA;
+    --background-color-button: #2196F3;
+    --background-color-hover-focus: #188CE8;
+    --border-button: none;
+}
+
+body {
+    color: var(--color-primary);
+    background-color: var(--background-color-main);
+}
+
+.header-link {
+    color: var(--color-primary);
+}
+
+.header-title {
+    color: var(--color-action);
+    background-color: var(--background-color-dark);
+}
+
+.header-contact {
+    color: var(--color-secondary);
+}
+
+.header-contact:hover {
+    color: var(--color-accent);
+}
+
+.header-contact:focus {
+    color: var(--color-accent);
+}
+
+.footer-contact {
+    color: var(--color-text-footer);
+    font-style: normal;
+}
+
+.footer-contact:hover {
+    color: var(--color-accent);
+}
+
+.footer-contact:focus {
+    color: var(--color-accent);
+}
+
+.address {
+    color: var(--color-action);
+    font-style: normal;
+}
+
+.address:hover {
+    color: var(--color-accent);
+}
+
+.address:focus {
+    color: var(--color-accent);
+}
+
+.text {
+    color: var(--color-secondary);
+}
+
+.footer {
+    background-color: var(--background-color-dark);
+}
+
+.team-section {
+    background-color: var(--background-color-light);
+}
+
+.team-member {
+    background-color: var(--background-color-main);
+}
+
+.header-logo{
+    color: var(--color-logo);
+}
+
+.accent-logo {
+    color: var(--color-accent);
+}
+
+.footer-logo {
+    color: var(--color-action);
+}
+
+.hero-button {
+    color: var(--color-action);
+    background-color: var(--color-accent);
+    border-radius: 4px;
+    border: var(--border-button);
+    cursor: pointer;
+}
+
+.hero-button:hover {
+    background-color: var(--background-color-hover-focus);
+}
+
+.hero-button:focus {
+    background-color: var(--background-color-hover-focus);
+}
+
+.button-filter {
+    color: var(--color-primary);
+    background-color: var(--background-color-light);
+    border-radius: 4px;
+    border: var(--border-button);
+    cursor: pointer;
+}
+
+.button-filter:hover {
+    background-color: var(--background-color-button);
+    color: var(--color-action);
+}
+
+.button-filter:focus {
+    background-color: var(--background-color-button);
+    color: var(--color-action);
 }
